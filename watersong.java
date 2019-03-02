@@ -1,34 +1,29 @@
-public class watersong {
-    public static void main(string[] args) {
-         int waternum = 9;
-         string word = "bottles";
-         while (waternum > 0)
-          {
-            if (waternum == 1)
-             { 
-               word == "bottle";
-             }
-              system.out.println(waternum +" "+ word + "of water on the wall");
-              system.out.println(waternum +" "+ word + "of water");
-              system.out.println("take one down.");
-              system.out.println("pass it around");
-              waternum = waternum - 1;
-              if (waternum > 0)
-              {
-                system.out.println(waternum +" "+ word + "of water on the wall");
-              }
-              else
-              {
-                system.out.println("no more bottles of water on the wall");
-              }
-          }
-      }
-  }  
-               
+public class WaterSongFixed {
+public static void main(String[] arg) {
+int waterNum =9;
+String word ="bottles";
+while (waterNum > 0)
+{
+if (waterNum==1)
+{
+
+word ="bottle";
+}
+
+System.out.println(waterNum + " " + word + " of water on the wall ");
+System.out.println(waterNum + " " + word + " of water");
+System.out.println("take one down.");
+System.out.println("pass it around.");
+waterNum =waterNum -1;
 
 
-
-
-
-
-              }
+if (waterNum > 0)
+{
+ System.out.println(waterNum + " " + word + " of water on the wall");
+}
+else{
+System.out.println("No more bottles");
+}
+}
+}
+}
